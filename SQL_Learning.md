@@ -1,9 +1,8 @@
 # SQL学習
 
 
-
 - MAX関数
-
+                                                                                                                                		
   指定したカラムのデータの中から最大のデータを取得できる
 
   ```sql
@@ -80,11 +79,26 @@ HAVING SUM(price) > 1000;
   WHERE height >= 180;
   ```
 
+
+
+
+- テーブルを紐づける
+
+  外部キーと主キーを使用する
+
+  ※外部キーと主キーで紐付け可能
+
+
+
+- 複数のテーブルを一つに結合したいとき
+
+  JOINを使用する
+
+  ```SQL
+  SELECT * FROM players JOIN countries ON players.country_id = countries.id;
+  ```
+
   
-
-
-
-
 
 
 
