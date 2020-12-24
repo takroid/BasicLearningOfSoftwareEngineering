@@ -100,7 +100,7 @@ HAVING SUM(price) > 1000;
 
   
 
-- LEFT JOIN
+- LEFT JOINdd
 
   ```sql
   SELECT * FROM players LEFT JOIN teams on players.previous_team_id = teams.id;
