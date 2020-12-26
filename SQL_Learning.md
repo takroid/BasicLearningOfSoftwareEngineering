@@ -94,19 +94,21 @@ HAVING SUM(price) > 1000;
 
   JOINを使用する
 
+  ※JOINとINNERJOINは同じ
+
   ```SQL
   SELECT * FROM players JOIN countries ON players.country_id = countries.id;
   ```
 
   
 
-- LEFT JOINdd
+- LEFT JOIN(左外部結合)
+
+  
 
   ```sql
   SELECT * FROM players LEFT JOIN teams on players.previous_team_id = teams.id;
   ```
-
-  
 
 
 
